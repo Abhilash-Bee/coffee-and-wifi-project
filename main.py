@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from flask_wtf import FlaskForm
-from wtforms import StringField, URLField, TimeField, SelectField, SubmitField
+from wtforms import StringField, URLField, SelectField, SubmitField
 from wtforms.validators import DataRequired
 import csv
 
